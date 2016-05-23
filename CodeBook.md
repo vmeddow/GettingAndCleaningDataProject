@@ -101,21 +101,21 @@ Variables found in run_analysis.R
 ##### Name Transformations
 * Activity labels had the numerics removed. Example: "WALKING2" in the raw data became "WALKING" in the tidy data.
 * Column names were modified to be more descriptive and readable by expanding the abbreviations:
-*  * tBodyAcc in raw data became timeBodyAccelerometer
-*  * tBodyGyro in raw data became timeBodyGyroscope
-*  * fBodyAcc in raw data became frequencyBodyAccelerometer
-*  * fBodyGyro in raw data became frequencyBodyGyroscope
-*  * tGravityAcc in raw data became timeGravityAccelerometer
-*  * X in raw data became XAxis
-*  * Y in raw data became YAxis
-*  * Z  in raw data became ZAxis
-*  * Mag in raw data became Magnitude
-*  * Mag in raw data became Magnitude
-*  * Std in raw data became StandardDeviation
-*  * Freq in raw data became Frequency
-*  * Dashes were removed
+  * tBodyAcc in raw data became timeBodyAccelerometer
+  * tBodyGyro in raw data became timeBodyGyroscope
+  * fBodyAcc in raw data became frequencyBodyAccelerometer
+  * fBodyGyro in raw data became frequencyBodyGyroscope
+  * tGravityAcc in raw data became timeGravityAccelerometer
+  * X in raw data became XAxis
+  * Y in raw data became YAxis
+  * Z  in raw data became ZAxis
+  * Mag in raw data became Magnitude
+  * Mag in raw data became Magnitude
+  * Std in raw data became StandardDeviation
+  * Freq in raw data became Frequency
+  * Dashes were removed
 
 
-*****Data Transformations
+#####Data Transformations
 * After merging the train and test data sets, the total data set was "melted" so each row contains a unique subject and activity combination
 * The melted data is then cast to display the mean of each feature for each subject and activity combination
